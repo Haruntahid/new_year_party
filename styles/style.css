@@ -176,7 +176,9 @@ font-family: 'Inter', sans-serif; */
 .column3 {
   width: 33.33%;
 }
-.column1 h4 {
+.column1 h4,
+.gift_head h4,
+.newsletter_content h4 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
@@ -188,6 +190,9 @@ font-family: 'Inter', sans-serif; */
   font-family: Inter;
   font-size: 20px;
 }
+.col3_p {
+  margin-top: 16px;
+}
 .column2 {
   text-align: center;
 }
@@ -198,6 +203,9 @@ font-family: 'Inter', sans-serif; */
   border: 15px solid #f00;
   padding: 25px;
 }
+.column3 {
+  max-width: 280px;
+}
 .column3 h3 {
   color: #f00;
   font-family: Inter;
@@ -206,4 +214,70 @@ font-family: 'Inter', sans-serif; */
 }
 .column3 img {
   margin-top: 30px;
+}
+
+/* best gifts */
+
+.best_gifts {
+  margin-top: 120px;
+}
+.gift_p {
+  margin-bottom: 50px;
+}
+.gap {
+  margin-top: 24px;
+}
+.col img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.col img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
+
+/* newsletter */
+
+.newsletter {
+  margin-top: 120px;
+}
+.newsletter_content {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  padding: 80px 200px;
+}
+.subscribe {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe input {
+  padding: 25px 0 25px 30px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border: none;
+  width: 40%;
+  font-size: 20px;
+}
+.subscribe input:focus {
+  outline: none;
+}
+.subscribe a {
+  padding: 25px 56px;
+  border-radius: 0px 40px 40px 0px;
+  background: #f00;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* footer */
+.footer {
+  background-color: #070211;
 }
