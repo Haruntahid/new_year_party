@@ -280,4 +280,34 @@ font-family: 'Inter', sans-serif; */
 /* footer */
 .footer {
   background-color: #070211;
+  margin-top: 120px;
+  padding: 120px 140px;
+}
+.footer_left p,
+.footer_right span,
+.footer_right_txt {
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer_right img {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+.footer_right p {
+  display: flex;
+  align-items: center;
+}
+hr {
+  color: rgba(255, 255, 255, 0.15);
+  margin: 50px 0;
+}
+.social {
+  text-align: center;
+}
+.social a {
+  margin-right: 24px;
 }
